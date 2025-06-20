@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShellTabs.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShellTabs"
+    Title="ShellTabs">
+
+	<FlyoutItem
+		FlyoutDisplayOptions="AsMultipleItems">
+		<Tab Route="BaseRoute">
+			<ShellContent
+				Title="1"
+				ContentTemplate="{DataTemplate local:MainPage}"
+				Route="Route1" />
+			<ShellContent
+				Title="2"
+				ContentTemplate="{DataTemplate local:MainPage}"
+				Route="Route2" />
+			<ShellContent
+				Title="3"
+				ContentTemplate="{DataTemplate local:MainPage}"
+				Route="Route3" />
+			<ShellContent
+				Title="4"
+				ContentTemplate="{DataTemplate local:MainPage}"
+				Route="Route4" />
+			<ShellContent
+				Title="5"
+				ContentTemplate="{DataTemplate local:MainPage}"
+				Route="Route5" />
+			<ShellContent
+				Title="6"
+				ContentTemplate="{DataTemplate local:MainPage}"
+				Route="Route6" />
+			<ShellContent
+				Title="7"
+				ContentTemplate="{DataTemplate local:MainPage}"
+				Route="Route7" />
+		</Tab>
+	</FlyoutItem>
+
+</Shell>
